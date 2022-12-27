@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import CategoriesController from './Controllers/CategoriesController.js';
-import HomeController from './Controllers/HomeController.js'
+import CategoriesController from './app/controllers/CategoriesController.js';
+import HomeController from './app/controllers/HomeController.js'
+
 
 const router = Router();
 

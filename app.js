@@ -1,9 +1,9 @@
 import express from 'express';
 import router from "./router.js";
 import bodyParser from 'body-parser';
-import connect from './database/database.js';
-import Article from './Models/Article.js';
-import Category from './Models/Category.js';
+import connect from './app/config/database.js';
+import Article from './app/models/Article.js';
+import Category from './app/models/Category.js';
 
 const app = express();
 

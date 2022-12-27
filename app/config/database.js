@@ -1,4 +1,4 @@
-import connection from './default.js';
+import connection from "./default.js";
 
 async function connect() {
 
