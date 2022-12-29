@@ -9,4 +9,4 @@ export default router
     .get('/', HomeController.index)
 
     .get('/admin/categories/new', CategoriesController.index)
-    .get('/categories/create', CategoriesController.insert)
+    .post('/categories/create', CategoriesController.insert)

@@ -8,10 +8,11 @@ import Category from './app/models/Category.js';
 const app = express();
 
 app.use('/', router);
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json());
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.use(express.json()); 
 
 app.listen(8080, async () => {
 
